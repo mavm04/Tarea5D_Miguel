@@ -36,4 +36,16 @@ public class Verduritas {
     public void setNombre(String nombre) {
         this.nombre = nombre;
     }
+
+    @Override
+    public String toString() {
+        StringBuilder sb = new StringBuilder();
+        sb.append("Verduritas{");
+        sb.append("codVerdurita=").append(codVerdurita);
+        sb.append(", nombre=").append(nombre);
+        sb.append('}');
+        return sb.toString();
+    }
+    
+    
 }
