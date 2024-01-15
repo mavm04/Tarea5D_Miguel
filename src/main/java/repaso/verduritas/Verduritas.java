@@ -20,6 +20,20 @@ public class Verduritas {
 
     public Verduritas() {
     } 
-    
-    
+
+    public String getCodVerdurita() {
+        return codVerdurita;
+    }
+
+    public void setCodVerdurita(String codVerdurita) {
+        this.codVerdurita = codVerdurita;
+    }
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
 }
